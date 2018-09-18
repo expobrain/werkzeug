@@ -65,10 +65,10 @@ script:
 cache:
   - pip
 
-branches:
-  only:
-    - master
-    - /^.*-maintenance$/
+# branches:
+#   only:
+#     - master
+#     - /^.*-maintenance$/
 
 notifications:
   email: false
